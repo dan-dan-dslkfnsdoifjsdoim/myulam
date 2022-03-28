@@ -1,0 +1,8 @@
+C:/Users/AGTM/myulam/build/windows/runner/Release/data/icudtl.dat
+C:/Users/AGTM/myulam/build/windows/runner/Release/flutter_windows.dll
+C:/Users/AGTM/myulam/build/windows/runner/Release/data/flutter_assets/AssetManifest.json
+C:/Users/AGTM/myulam/build/windows/runner/Release/data/flutter_assets/FontManifest.json
+C:/Users/AGTM/myulam/build/windows/runner/Release/data/flutter_assets/fonts/MaterialIcons-Regular.otf
+C:/Users/AGTM/myulam/build/windows/runner/Release/data/flutter_assets/NOTICES.Z
+C:/Users/AGTM/myulam/build/windows/runner/Release/data/flutter_assets/packages/cupertino_icons/assets/CupertinoIcons.ttf
+C:/Users/AGTM/myulam/build/windows/runner/Release/data/app.so

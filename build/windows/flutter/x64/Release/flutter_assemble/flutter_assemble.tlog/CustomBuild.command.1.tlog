@@ -1,0 +1,28 @@
+^C:\USERS\AGTM\MYULAM\BUILD\WINDOWS\CMAKEFILES\5274C5E08B9676326612878988492CC5\FLUTTER_WINDOWS.DLL.RULE
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E env FLUTTER_ROOT=C:\Users\AGTM\flutter PROJECT_DIR=C:\Users\AGTM\myulam FLUTTER_ROOT=C:\Users\AGTM\flutter FLUTTER_EPHEMERAL_DIR=C:\Users\AGTM\myulam\windows\flutter\ephemeral PROJECT_DIR=C:\Users\AGTM\myulam FLUTTER_TARGET=lib\main.dart DART_OBFUSCATION=false TRACK_WIDGET_CREATION=true TREE_SHAKE_ICONS=true PACKAGE_CONFIG=C:\Users\AGTM\myulam\.dart_tool\package_config.json C:/Users/AGTM/flutter/packages/flutter_tools/bin/tool_backend.bat windows-x64 Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AGTM\MYULAM\BUILD\WINDOWS\CMAKEFILES\63B665D0198073A8409A99CC5C68883F\FLUTTER_ASSEMBLE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^C:\USERS\AGTM\MYULAM\WINDOWS\FLUTTER\CMAKELISTS.TXT
+setlocal
+"C:\Program Files\Microsoft Visual Studio\2022\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -SC:/Users/AGTM/myulam/windows -BC:/Users/AGTM/myulam/build/windows --check-stamp-file C:/Users/AGTM/myulam/build/windows/flutter/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
